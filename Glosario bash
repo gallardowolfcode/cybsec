@@ -1,9 +1,9 @@
 ##Glosario Bash pagina bandit
 
-ls -la:
-ls:
-cd:
-cat:
+ls -la:----------------------------- List all files (including hidden)
+ls: -------------------------------- List files in current folder
+cd: -------------------------------- 
+cat: ------------------------------- show plain the text file content
 file:
 du:
 find:
@@ -16,7 +16,14 @@ uniq -c:
 uniq -i:
 sort -nr >>  /path/output.txt:
 sort -t ':' -k 3 -n:
-grep -n:
+grep -n: ---------------------------- Line number
+grep -r: ---------------------------- Recursive
+grep -l: ---------------------------- Files with matches
+grep -i: ---------------------------- Ignore case
+grep -c: ---------------------------- Count
+
+
+
 pstree:
 tac:
 wc:
