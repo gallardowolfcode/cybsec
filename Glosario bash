@@ -12,3 +12,11 @@ mv:
 cat ./:
 nano:
 nano ./:
+uniq -c:
+uniq -i:
+sort -nr >>  /path/output.txt:
+sort -t ':' -k 3 -n:
+grep -n:
+pstree:
+tac:
+wc:
